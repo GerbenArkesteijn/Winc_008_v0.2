@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="header_footer box-2">
+                <a href="index.html">Home</a>
+            </nav>
+            <h1 class="black-border box-1">Contact</h1>
+        </header>
+
+        <main class="box-1 main-border">
+            <ul class="list">
+                <li>Email: voorbeeld@voorbeeld.nl</li>
+                <li>Telefoon: 030-1234567</li>
+            </ul><br>
+            <p class="paragraph">Mocht je vragen hebben, stuur mij dan een bericht via onderstaand contactformulier:</p>
+            <form class="paragraph" name="contact" method="POST" data-netlify="true">
+                <label for="fname">Voornaam:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Achternaam:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="tel">Telefoonnummer</label><br>
+                <input type="tel" id="tel" name="tel"><br><br>
+                <label for="DOB">Geboortedatun</label><br>
+                <input type="date" id="DOB" name="DOB"><br><br>
+                <label for="gender">Gender</label><br>
+                <input type="radio" id="gender1" name="gender" value="Man">
+                <label for="gender">Man</label><br>
+                <input type="radio" id="gender2" name="gender" value="Vrouw">
+                <label for="gender">Vrouw</label><br>
+                <input type="radio" id="gender3" name="gender" value="Onbepaald">
+                <label for="gender">Onbepaald</label><br><br>
+                <label for="Favorite quisine">Favoriete quisine</label><br>
+                <input type="checkbox" id="quisine1" name="Frans" value="Frans">
+                <label for="Frans">Franse keuken</label><br>
+                <input type="checkbox" id="quisine2" name="Italiaans" value="Italiaans">
+                <label for="Frans">Italiaanse keuken</label><br>
+                <input type="checkbox" id="quisine3" name="Spaans" value="Spaans">
+                <label for="Frans">Spaanse keuken</label><br>
+                <input type="checkbox" id="quisine4" name="Arabisch" value="Arabisch">
+                <label for="Frans">Arabische keuken</label><br><br>
+                <label for="favorite color">Favoriete kleur</label><br>
+                <input type="color" id="favorite color" name="favorite color"><br><br>
+                <label for="Biography">Biografie</label><br>
+                <textarea name="Biography" rows="1" cols="50" wrap="physical" id="comment_text_area"></textarea><br><br>
+                <label for="file upload">Upload je meest recente recept</label><br>
+                <input type="file" id="File Upload" name="file upload"><br><br>
+                <label for="url website">Jouw recepten-website</label><br>
+                <input type="url" id="url website" name="url website"><br><br><br>
+                <input type="reset" name="Formulier Leegmaken">
+                <input type="submit" name="Formulier verzenden"><br>
+                <br><br><br><br><br><br>
+
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>
